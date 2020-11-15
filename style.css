@@ -1,0 +1,35 @@
+#box-container {
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    align-content: space-between;
+    align-self: center;
+}
+
+body{
+    background-color:#b56576 ;
+    font-family: Helvetica, sans-serif;
+    margin: 5%;
+    color:white;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    background-color: #6d597a;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.box:active{
+    background-color: #5a4369;
+}
+
+h1{
+    text-align: center;
+}
